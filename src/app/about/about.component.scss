@@ -1,0 +1,39 @@
+
+.card {
+    margin: 20px;
+  }
+  
+  .mat-card {
+    width: 370px; 
+    height: 250px;
+    // background-color: #000000;
+    background: url('/assets/cardimg.jpg');
+    background-size: cover;
+    box-shadow: 1px 2px 10px 3px rgb(33 150 235 / 60%);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 1px 2px 10px 3px rgb(33 150 235 / 60%);
+    }
+  }
+  
+  .mat-card-content {
+    padding: 20px; 
+  }
+  
+  .i {
+    font-size: 20px; 
+    font-weight: bold;
+    color: #3979cd;
+    margin-bottom: 12px;
+  }
+  
+  .field-name {
+    font-size: 16px; 
+
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  

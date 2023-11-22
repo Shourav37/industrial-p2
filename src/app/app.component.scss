@@ -1,0 +1,61 @@
+body {
+  height: 120vh;
+  background-image: url('/assets/wallpaperflare.com_wallpaper.jpg');
+  background-size: cover; 
+}
+
+mat-toolbar-row{
+  justify-content: center;
+  font: 500 60px/252px Roboto, "Helvetica Neue", sans-serif;
+  box-shadow: 20px 19px 20px 20px rgba(83, 83, 83, 0.6);
+}
+mat-toolbar-row > a{
+  text-decoration: none;
+  color: white;
+}
+mat-toolbar {
+  height: 100px;
+  background: transparent; 
+  color: #fff; 
+
+  span {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .nav {
+    flex: 1;
+  }
+
+  button {
+    color: #141313;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0 100px;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #333; 
+      color: white;
+      
+    }
+  }
+ 
+  button.router-link-active {
+    background-color: #333; 
+  }
+}
+ .headerbutton {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 10px;
+    padding-left: 20px;
+    transition: background-color 0.3s ease-in-out;
+    
+    &:hover {
+      background-color: #333; 
+    }
+  }
