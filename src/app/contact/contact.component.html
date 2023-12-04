@@ -2,7 +2,7 @@
   
   <mat-card class="form-card">
 
-  <h2 style="color:#2196F3 ;">Fill Up Form</h2>
+  <h2 style="color:rgb(7, 26, 199) ;">Fill Up Form</h2>
 
   <form class="contact-form" [formGroup]="myReactiveForm" (ngSubmit)="onSubmit()">
     <mat-form-field class="full-width">
@@ -18,7 +18,7 @@
     <div formArrayName="characters">
       <div *ngFor="let skill of myReactiveForm.get('characters').controls; let i = index">
         <mat-form-field class="full-width">
-          <input matInput placeholder="Enter Your Favourite Characters" [formControlName]="i">
+          <input matInput placeholder="Enter Favorite Episode from GOT" [formControlName]="i">
         </mat-form-field>
 
         <button mat-icon-button color="warn" (click)="removeCharacters(i)">
@@ -28,7 +28,7 @@
     </div>
     <mat-icon mat-icon-button style="color: #2196F3;" (click)="addCharacters()">add_circle</mat-icon>
 
-    <button class="button_" mat-raised-button style=" margin-left: 30%;background-color: #2196F3; color:white;" type="submit">Submit</button>
+    <button class="button_" mat-raised-button style=" margin-left: 30%;background-color: #074170; color:white;" type="submit">Submit</button>
   </form>
 
 </mat-card>

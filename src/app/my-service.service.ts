@@ -13,6 +13,6 @@ export class MyServiceService {
 
 
   getAbout(): Observable <any> {
-    return this.http.get<any>('https://api.gameofthronesquotes.xyz/v1/random/5');
+    return this.http.get<any>('https://api.gameofthronesquotes.xyz/v1/random/6');
   }
 }

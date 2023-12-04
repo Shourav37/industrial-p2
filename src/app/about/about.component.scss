@@ -4,18 +4,14 @@
   }
   
   .mat-card {
-    width: 370px; 
-    height: 250px;
+    width: 350px; 
+    height: 240px;
     // background-color: #000000;
-    background: url('/assets/cardimg.jpg');
+    
     background-size: cover;
-    box-shadow: 1px 2px 10px 3px rgb(33 150 235 / 60%);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   
-    &:hover {
-      transform: scale(1.05);
-      box-shadow: 1px 2px 10px 3px rgb(33 150 235 / 60%);
-    }
+
   }
   
   .mat-card-content {
@@ -23,16 +19,16 @@
   }
   
   .i {
-    font-size: 20px; 
+    font-size: 18px; 
     font-weight: bold;
-    color: #3979cd;
-    margin-bottom: 12px;
+    color: rgb(70, 109, 136)
+   ;
   }
   
   .field-name {
-    font-size: 16px; 
+    font-size: 14px; 
 
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 10px;
   }
   
